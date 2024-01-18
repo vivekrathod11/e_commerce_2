@@ -1,0 +1,371 @@
+
+import 'dart:convert';
+
+import 'package:e_commerce_2/appColors/appColorsAll.dart';
+import 'package:get/get.dart';
+
+
+
+
+
+class SignIn3Controller extends GetxController {
+
+
+
+  loadSignIn3ScreenUI() {
+    final jsonString = '''
+    
+{
+  "type": "scaffold",
+  "backgroundColor": "#000000",
+  "body": {
+    "type": "singleChildScrollView",
+    "child": {
+      "type": "container",
+      "height": 800.0,
+      "width": 500.0,
+      "decoration": {
+      "color": "primaryColor",
+      "opacity": 1.0
+        
+      },
+      "child": {
+      "type": "column",
+      "mainalignment": "spaceEvenly",
+      "crossalignment": "center",
+      "children": [
+      
+      {
+      "type": "sizedBox",
+      "height": 50.0,
+      "width": 0.0
+      },
+      
+      {
+        "type": "imageAsset",
+        "imageUrl": "assets/logoWhite.png",
+        "width": 112.0,
+        "height": 58.0,
+        "fit": "contain"
+       },
+       
+       {
+        "type": "padding",
+         "top": 0.0,
+         "bottom": 0.0,
+         "left": 20.0,
+         "right": 20.0,
+        "child":   {
+        "type": "container",
+        "height": 500.0,
+        "width": 340.0,
+        "decoration": {
+        "color": "secondaryColor",
+        "opacity": 1.0,
+        "borderRadius": {
+          "topRight": 10,
+          "bottomRight": 10.0,
+          "topLeft": 10,
+          "bottomLeft": 10
+        }
+      },
+        "child": {
+         "type": "column",
+          "mainalignment": "spaceEvenly",
+          "crossalignment": "center",
+          "children": [
+           
+           {
+            "type": "center",
+            "child": 
+                {
+                  "type": "text",
+                  "label": "Sign In",
+                  "textColor": "${AppColors.primaryText}",
+                  "fontSize": 40,
+                  "fontWeight": "bold"
+                }
+              },
+         
+              
+           {
+              "type": "container",
+              "height": 45.0,
+              "width": 300.0,
+              "decoration": {
+                    "color": "#00000000",
+                    "borderColor": "#00000000",
+                    "borderRadius": {
+                      "topRight": 25,
+                      "bottomRight": 25,
+                      "topLeft": 25,
+                      "bottomLeft": 25
+                    }
+                  } ,
+                  "child":{
+                  "type":"textField",
+                  "label":"Enter your Email",
+                  "placeholder":"Enter your Email Address",
+                  "obscureText":false,
+                  "prefixIcon": "",
+                  "suffixIcon": "",
+                   "suffixColor": "#00000000",
+                  "prefixColor": "#9CA0AF99",
+                  "fieldOpacity": 0.0,
+                  "radius": 50.0,
+                  "keyboardType": "email",
+                  "textInputAction": "next",
+                  "colorName": "#00000000"
+                      
+                }
+              },
+            {
+              "type": "container",
+              "height": 45.0,
+              "width": 300.0,
+              "decoration": {
+                    "color": "#00000000",
+                    "borderColor": "#00000000",
+                    "borderRadius": {
+                      "topRight": 25,
+                      "bottomRight": 25,
+                      "topLeft": 25,
+                      "bottomLeft": 25
+                    }
+                  } ,
+                  "child":{
+                  "type":"textField",
+                  "label":"Enter your Password",
+                  "placeholder":"Enter your Email Address",
+                  "obscureText":true,
+                  "prefixIcon": "",
+                  "suffixIcon": "",
+                  "prefixColor": "#9CA0AF99",
+                  "fieldOpacity": 0.0,
+                  "radius": 50.0,
+                  "keyboardType": "email",
+                  "textInputAction": "done",
+                   "suffixColor": "#00000000",
+                   "colorName": "#00000000"
+                      
+                }
+              },
+  
+ 
+              
+          {
+            "type": "padding",
+             "top":0.0,
+            "bottom":0.0,
+            "left":30.0,
+            "right": 30.0,
+            "child": {
+           "type": "buttonContainer",
+           "height": 50.0,
+           "width": 350.0,
+           "child": {
+            "type": "padding",
+             "top":15.0,
+            "bottom":0.0,
+            "left":0.0,
+            "right": 0.0,
+            "child": {
+             "type": "text",
+            "label": "Sign In",
+            "textColor": "#FFFFFF",
+            "fontSize": 14,
+            "fontWeight": "Bold"   
+            }
+           },
+           "tag": "goToHome3",
+               "decoration":{
+                  "color":"buttonColor",
+                  "opacity": 1.0,
+                  "borderColor": "00000000",
+                  "borderRadius":{
+                     "topRight":50,
+                     "bottomRight": 50,
+                     "topLeft": 50,
+                     "bottomLeft": 50
+                }
+              }
+             }
+           },
+            {
+            "type": "sizedBox",
+            "height": 0.0,
+            "width": 0.0
+            },
+           {
+            "type": "row",
+            "mainalignment": "center",
+            "crossalignment": "center",
+            "children": [
+            {
+            "type": "text",
+            "label": "Don't have an account?",
+            "textColor": "#8D8D8D",
+            "fontSize": 12,
+            "fontWeight": "Bold"   
+            },
+           
+            
+            {
+              "type": "textButton",
+              "tag": "goTosignUp3",
+              "child": {
+               "type": "text",
+              "label": "Sign Up",
+              "textColor": "${AppColors.buttonColor}",
+              "fontSize": 14,
+              "fontWeight": "Bold"   
+             }
+            }
+           ]
+          },
+           
+          
+              {
+                "type":"sizedBox",
+                "height":0.0,
+                "width":0.0
+             },
+            
+             {
+                  "type":"row",
+                  "mainalignment":"center",
+                  "crossalignment":"center",
+                  "children":[
+                     {
+                        "type":"container",
+                        "height":40.0,
+                        "width":40.0,
+                         "decoration":{
+                              "color":"${AppColors.primaryColor}",
+                              "borderColor": "00000000",
+                              "borderRadius":{
+                                 "topRight":10,
+                                 "bottomRight": 10,
+                                 "topLeft": 10,
+                                 "bottomLeft": 10
+                            }
+                          },
+                        "child":{
+                           "type":"center",
+                           "child":{
+                              "type":"image",
+                              "imageUrl":"https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png",
+                              "width":20.0,
+                              "height":20.0,
+                              "fit" : "cover",
+                              "tag": "signInWithGoogle"
+                           }
+                        }
+                        
+                     },
+                     {
+                        "type":"sizedBox",
+                        "height":1.0,
+                        "width":20.0
+                     },
+                     {
+                        "type":"container",
+                        "height":40.0,
+                        "width":40.0,
+                         "decoration":{
+                              "color":"#F6F6F6",
+                              "borderColor": "00000000",
+                              "borderRadius":{
+                                 "topRight":10,
+                                 "bottomRight": 10,
+                                 "topLeft": 10,
+                                 "bottomLeft": 10
+                            }
+                          },
+                        "child":{
+                           "type":"center",
+                           "child":{
+                              "type":"image",
+                              "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png",
+                              "width":20.0,
+                              "height":20.0,
+                              "fit" : "cover",
+                              "tag": "signInWithFaceBook"
+                           }
+                        }
+                     },
+                     {
+                        "type":"sizedBox",
+                        "height":1.0,
+                        "width":20.0
+                     },
+                      {
+                        "type":"container",
+                        "height":40.0,
+                        "width":40.0,
+                         "decoration":{
+                              "color":"#F6F6F6",
+                              "borderColor": "00000000",
+                              "borderRadius":{
+                                 "topRight":10,
+                                 "bottomRight": 10,
+                                 "topLeft": 10,
+                                 "bottomLeft": 10
+                            }
+                          },
+                        "child":{
+                           "type":"center",
+                           "child":{
+                              "type":"image",
+                              "imageUrl":"https://m.media-amazon.com/images/I/31zRjKBu0BL._SX300_SY300_QL70_FMwebp_.jpg",
+                              "width":20.0,
+                              "height":20.0,
+                              "fit" : "cover",
+                              "tag": "signInWithFaceBook"
+                           }
+                        }
+                      }
+                   ]
+                 }
+               ]     
+             } 
+           }
+          } 
+        ]               
+      }
+    }
+  }
+}
+
+''';
+    final parsedJson = json.decode(jsonString);
+    return parsedJson;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @override
+  void onInit() {
+    // TODO: implement onInit
+    super.onInit();
+  }
+  @override
+  void onReady() {
+    // TODO: implement onReady
+    super.onReady();
+  }
+  @override
+  void onClose() {
+    // TODO: implement onClose
+    super.onClose();
+  }
+}

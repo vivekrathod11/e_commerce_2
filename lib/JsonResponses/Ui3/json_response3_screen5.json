@@ -1,0 +1,584 @@
+{
+  "type": "scaffold",
+  "backgroundColor": "#000000",
+  "body": {
+
+    "type": "container",
+    "height": 800.0,
+    "width": 500.0,
+    "decoration": {
+      "color": "#E9EFF4",
+      "borderColor": "#00000000",
+      "opacity": 1.0
+
+    },
+    "child": {
+      "type": "padding",
+      "top":0.0,
+      "bottom":0.0,
+      "left": 15.0,
+      "right":15.0,
+      "child": {
+        "type": "column",
+        "mainalignment": "spaceEvenly",
+        "crossalignment": "start",
+        "children": [
+
+          {
+            "type":"container",
+            "height": 300.0,
+            "width": 400.0,
+            "decoration": {
+              "color": "#FFFFFF",
+              "color": "#FFFFFF",
+              "opacity": 0.0,
+              "borderColor": "00000000",
+              "borderRadius": {
+                "topRight": 0,
+                "bottomRight": 0,
+                "topLeft": 0,
+                "bottomLeft": 0
+              }
+            },
+            "child":   {
+              "type": "pageViewBuilder",
+              "itemCount": 3,
+              "scrollDirection": "horizontal",
+              "activeColor": "#C4C4C4",
+              "children": [
+
+                {
+                  "type": "container",
+                  "height": 300.0,
+                  "width": 500.0,
+                  "decoration": {
+                    "color": "#00000000",
+                    "borderColor": "00000000",
+                    "opacity": 0.0,
+                    "borderRadius": {
+                      "topRight": 5,
+                      "bottomRight": 5,
+                      "topLeft": 5,
+                      "bottomLeft": 5
+                    }
+                  },
+                  "child": {
+                    "type" : "row",
+                    "mainalignment":"spaceBetween",
+                    "crossalignment":"center",
+                    "children": [
+
+                      {
+                        "type": "container",
+                        "height": 100.0,
+                        "width": 40.0,
+                        "decoration":{
+                          "color":"#FFFFFF",
+                          "opacity": 0.0,
+                          "borderColor":"#00000000",
+                          "borderRadius":{
+                            "topRight":20,
+                            "bottomRight":20,
+                            "topLeft":20,
+                            "bottomLeft":20
+                          }
+                        },
+                        "child": {
+                          "type": "column",
+                          "mainalignment": "spaceEvenly",
+                          "crossalignment": "start",
+                          "children" : [
+                            {
+                              "type":"padding",
+                              "top": 0.0,
+                              "bottom":0.0,
+                              "left":0.0,
+                              "right": 0.0,
+                              "child":{
+                                "type" : "container",
+                                "height": 20.0,
+                                "width":  20.0,
+                                "child" :
+                                {
+
+                                  "type":"padding",
+                                  "top": 0.0,
+                                  "bottom": 0.0,
+                                  "left": 0.0,
+                                  "right": 0.0,
+                                  "child":  {
+                                    "type":"container",
+                                    "height":10.0,
+                                    "width":10.0,
+                                    "child":{
+
+
+                                    },
+                                    "decoration":{
+                                      "color":"#2C2B37",
+                                      "opacity": 1.0,
+                                      "borderColor":"#6D7274",
+                                      "borderRadius":{
+                                        "topRight":20,
+                                        "bottomRight":20,
+                                        "topLeft":20,
+                                        "bottomLeft":20
+                                      }
+                                    }
+                                  }
+                                },
+                                "decoration":{
+
+                                  "borderColor":"#FFFFFF",
+                                  "borderRadius":{
+                                    "topRight":20,
+                                    "bottomRight":20,
+                                    "topLeft":20,
+                                    "bottomLeft":20
+                                  }
+                                }
+                              }
+                            },
+
+                            {
+                              "type":"padding",
+                              "top": 0.0,
+                              "bottom":0.0,
+                              "left":0.0,
+                              "right": 0.0,
+                              "child":{
+                                "type" : "container",
+                                "height": 20.0,
+                                "width":  20.0,
+                                "child" :
+                                {
+
+                                  "type":"padding",
+                                  "top": 0.0,
+                                  "bottom": 0.0,
+                                  "left": 0.0,
+                                  "right": 0.0,
+                                  "child":  {
+                                    "type":"container",
+                                    "height":10.0,
+                                    "width":10.0,
+                                    "child":{
+
+
+                                    },
+                                    "decoration":{
+                                      "color":"#4FB65F",
+                                      "opacity": 1.0,
+                                      "borderColor":"#6D7274",
+                                      "borderRadius":{
+                                        "topRight":20,
+                                        "bottomRight":20,
+                                        "topLeft":20,
+                                        "bottomLeft":20
+                                      }
+                                    }
+                                  }
+                                },
+                                "decoration":{
+                                  "borderColor":"#6D7274",
+                                  "borderRadius":{
+                                    "topRight":20,
+                                    "bottomRight":20,
+                                    "topLeft":20,
+                                    "bottomLeft":20
+                                  }
+                                }
+                              }
+                            },
+
+                            {
+                              "type":"padding",
+                              "top": 0.0,
+                              "bottom":0.0,
+                              "left":0.0,
+                              "right": 0.0,
+                              "child":{
+                                "type" : "container",
+                                "height": 20.0,
+                                "width":  20.0,
+                                "child" :
+                                {
+
+                                  "type":"padding",
+                                  "top": 0.0,
+                                  "bottom": 0.0,
+                                  "left": 0.0,
+                                  "right": 0.0,
+                                  "child":  {
+                                    "type":"container",
+                                    "height":10.0,
+                                    "width":10.0,
+                                    "child":{
+
+
+                                    },
+                                    "decoration":{
+                                      "color":"#FF9F76",
+                                      "opacity": 1.0,
+                                      "borderColor":"#6D7274",
+                                      "borderRadius":{
+                                        "topRight":20,
+                                        "bottomRight":20,
+                                        "topLeft":20,
+                                        "bottomLeft":20
+                                      }
+                                    }
+                                  }
+                                },
+                                "decoration":{
+                                  "borderColor":"#6D7274",
+                                  "borderRadius":{
+                                    "topRight":20,
+                                    "bottomRight":20,
+                                    "topLeft":20,
+                                    "bottomLeft":20
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+
+                      {
+                        "type": "column",
+                        "mainalignment": "center",
+                        "crossalignment": "start",
+                        "children": [
+
+                          {
+                            "type": "container",
+                            "height": 150.0,
+                            "width": 250.0,
+                            "child": {
+                              "type": "imageAsset",
+                              "imageUrl": "assets/nike3.png",
+                              "width": 200.0,
+                              "height": 200.0,
+                              "fit": "cover"
+
+                            },
+                            "decoration": {
+                              "color": "#00000000",
+                              "borderColor": "00000000",
+                              "opacity": 0.0,
+                              "borderRadius": {
+                                "topRight": 5,
+                                "bottomRight": 5,
+                                "topLeft": 5,
+                                "bottomLeft": 5
+                              }
+                            }
+                          },
+
+                          {
+                            "type": "imageAsset",
+                            "imageUrl": "assets/ShoeS.png",
+                            "width": 200.0,
+                            "height": 70.0,
+                            "fit": "fitHeight"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "column",
+                        "mainalignment": "spaceBetween",
+                        "crossalignment": "start",
+                        "children": [
+
+                          {
+                            "type": "padding",
+                            "top": 0.0,
+                            "bottom": 0.0,
+                            "left": 0.0,
+                            "right": 0.0,
+                            "child":  {
+                              "type": "icon",
+                              "iconData": "heart",
+                              "size": 20.0,
+                              "color": "#9CA0AF"
+                            }
+                          }
+
+
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "padding",
+            "top": 0.0,
+            "bottom": 0.0,
+            "left": 0.0,
+            "right": 0.0,
+            "child":
+            {
+              "type": "text",
+              "label": "Nike men shoes",
+              "textColor": "#000000",
+              "fontSize": 18,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "type": "row",
+            "mainalignment": "start",
+            "crossalignment": "start",
+            "children": [
+              {
+                "type": "padding",
+                "top": 0.0,
+                "bottom": 0.0,
+                "left": 0.0,
+                "right": 0.0,
+                "child":
+                {
+                  "type": "text",
+                  "label": "men shoes",
+                  "textColor": "#9CA0AF",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              },
+
+              {
+                "type": "container",
+                "height": 40.0,
+                "width": 40.0,
+                "decoration": {
+                  "color": "#00000000",
+                  "opacity": 0.0,
+                  "borderColor": "#00000000"
+                },
+                "child": {
+                  "type": "row",
+                  "mainalignment": "start",
+                  "crossalignment": "start",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "iconData": "star_border",
+                      "size": 16.0,
+                      "color": "#9CA0AF"
+                    },
+                    {
+                      "type": "padding",
+                      "top": 3.0,
+                      "bottom": 0.0,
+                      "left": 0.0,
+                      "right": 0.0,
+                      "child": {
+                        "type": "text",
+                        "label": "4.8",
+                        "textColor": "#9CA0AF",
+                        "fontSize": 12,
+                        "fontWeight": "normal"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          {
+            "type": "padding",
+            "top": 0.0,
+            "bottom": 0.0,
+            "left": 0.0,
+            "right": 0.0,
+            "child":   {
+
+              "type": "text",
+              "label": "The Nike Free Metcon 3 offers a combination of Nike Free flexibility in the forefoot and Metcon stability in the heel for optimal training performance.",
+              "textColor": "#9CA0AF",
+              "fontSize": 12,
+              "fontWeight": "normal"
+
+            }
+          },
+          {
+            "type": "text",
+            "label": "Size :",
+            "textColor": "#000000",
+            "fontSize": 14,
+            "fontWeight": "bold"
+          },
+
+          {
+            "type": "listViewBuilder",
+            "itemCount": 11,
+            "height": 40.0,
+            "scrollDirection":"horizontal",
+            "child":
+            {
+              "type": "padding",
+              "top":0.0,
+              "bottom":0.0,
+              "left": 15.0,
+              "right": 0.0,
+              "child": {
+                "type": "buttonContainer",
+                "height": 40.0,
+                "width": 40.0,
+                "child": {
+                  "type": "padding",
+                  "top":10.0,
+                  "bottom":0.0,
+                  "left":0.0,
+                  "right": 0.0,
+                  "child": {
+                    "type": "text",
+                    "label": "1",
+                    "textColor": "#F6F6F6",
+                    "fontSize": 14,
+                    "fontWeight": "Bold"
+                  }
+                },
+                "tag": "goToCart2",
+                "decoration":{
+                  "color":"#41485533",
+                  "opacity": 0.2,
+                  "borderColor": "00000000",
+                  "borderRadius":{
+                    "topRight":50,
+                    "bottomRight": 50,
+                    "topLeft": 50,
+                    "bottomLeft": 50
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text",
+            "label": "$290.0",
+            "textColor": "#000000",
+            "fontSize": 24,
+            "fontWeight": "bold"
+          },
+
+          {
+            "type": "padding",
+            "top":0.0,
+            "bottom":0.0,
+            "left": 15.0,
+            "right": 0.0,
+            "child": {
+              "type": "buttonContainer",
+              "height": 50.0,
+              "width":  400.0,
+              "child": {
+                "type": "padding",
+                "top":0.0,
+                "bottom":0.0,
+                "left":10.0,
+                "right": 10.0,
+                "child": {
+                  "type": "row",
+                  "mainalignment": "spaceBetween",
+                  "crossalignment": "start",
+                  "children": [
+
+                    {
+                      "type": "padding",
+                      "top": 15.0,
+                      "bottom":0.0,
+                      "left":0.0,
+                      "right": 10.0,
+                      "child":  {
+                        "type": "text",
+                        "label": "Add To Cart",
+                        "textColor": "#FFFFFF",
+                        "fontSize": 14,
+                        "fontWeight": "Bold"
+                      }
+                    },
+
+
+                    {
+                      "type": "padding",
+                      "top": 10.0,
+                      "bottom":0.0,
+                      "left":0.0,
+                      "right": 0.0,
+                      "child":   {
+                        "type": "imageIcon",
+                        "image": "assets/arrowlotte.png",
+                        "size": 20.0,
+                        "color": "#FFFFFF"
+                      }
+                    },
+
+
+
+
+
+
+                    {
+                      "type": "padding",
+                      "top": 3.0,
+                      "bottom": 0.0,
+                      "left": 60.0,
+                      "right": 0.0,
+                      "child": {
+                        "type": "container",
+                        "height": 40.0,
+                        "width": 40.0,
+                        "child": {
+                          "type": "center",
+                          "child": {
+                            "type": "iconButton",
+                            "child": {
+                              "type": "icon",
+                              "iconData": "cart2",
+                              "color": "#2D2C3980",
+                              "size": 16.0
+                            },
+                            "tag": ""
+                          }
+                        },
+                        "decoration": {
+                          "color": "#FFFFFF",
+                          "opacity": 1.0,
+                          "borderRadius": {
+                            "topRight": 25,
+                            "bottomRight": 25,
+                            "topLeft": 25,
+                            "bottomLeft": 25
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+
+              "tag": "goToCart3",
+              "decoration":{
+                "color":"#AA7EEF",
+                "opacity": 1.0,
+                "borderColor": "00000000",
+                "borderRadius":{
+                  "topRight":25,
+                  "bottomRight": 25,
+                  "topLeft": 25,
+                  "bottomLeft": 25
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+//rotate icon;
+
+{
+  "type": "padding",
+  "top": 0.0,
+  "bottom": 0.0,
+  "left": 0.0,
+  "right": 0.0,
+  "child": {
+    "type": "container",
+    "height": 32.0,
+    "width": 32.0,
+    "child": {
+      "type": "center",
+      "child": {
+        "type": "imageIcon",
+        "image": "assets/roundIcon.png",
+        "color": "#000000",
+        "size": 20.0,
+        "tag": ""
+      }
+    },
+    "decoration": {
+      "color": "#FFFFFF",
+      "opacity": 1.0,
+      "borderColor": "#00000000",
+      "borderRadius": {
+        "topRight": 25,
+        "bottomRight": 25,
+        "topLeft": 25,
+        "bottomLeft": 25
+      }
+    }
+  }
+},
+
+{
+"type": "padding",
+"top": 0.0,
+"bottom": 0.0,
+"left": 10.0,
+"right": 10.0,
+"child": {
+"type": "row",
+"mainalignment": "spaceBetween",
+"crossalignment": "start",
+"children": [
+{
+"type": "padding",
+"top": 0.0,
+"bottom": 0.0,
+"left": 0.0,
+"right": 0.0,
+"child": {
+"type": "container",
+"height": 32.0,
+"width": 32.0,
+"child": {
+"type": "center",
+"child": {
+"type": "imageIcon",
+"image": "assets/menu.png",
+"color": "#000000",
+"size": 24.0,
+"tag": "drawer"
+}
+},
+"decoration": {
+"color": "#FFFFFF",
+"borderRadius": {
+"topRight": 5,
+"bottomRight": 5,
+"topLeft": 5,
+"bottomLeft": 5
+}
+}
+}
+},
+
+{
+"type": "padding",
+"top": 0.0,
+"bottom": 0.0,
+"left": 0.0,
+"right": 0.0,
+"child": {
+"type": "container",
+"height": 30.0,
+"width": 80.0,
+"child": {
+"type": "center",
+"child": {
+"type": "imageAsset",
+"imageUrl": "assets/logo.png",
+"width": 56.0,
+"height": 20.0,
+"fit": "cover"
+}
+}
+}
+},
+
+{
+"type": "padding",
+"top": 0.0,
+"bottom": 0.0,
+"left": 0.0,
+"right": 0.0,
+"child": {
+"type": "container",
+"height": 32.0,
+"width": 32.0,
+"child": {
+"type": "center",
+"child": {
+"type": "iconButton",
+"child": {
+"type": "icon",
+"iconData": "noti",
+"color": "#000000",
+"size": 22.0
+},
+"tag": "notification"
+}
+},
+"decoration": {
+"color": "#FFFFFF",
+"borderRadius": {
+"topRight": 5,
+"bottomRight": 5,
+"topLeft": 5,
+"bottomLeft": 5
+}
+}
+}
+}
+]
+}
+},

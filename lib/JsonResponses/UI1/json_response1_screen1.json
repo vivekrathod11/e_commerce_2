@@ -1,0 +1,26 @@
+{
+  "type": "scaffold",
+  "backgroundColor": "#000000",
+  "body": {
+    "type": "singleChildScrollView",
+    "child": {
+      "type": "container",
+      "height": 800.0,
+      "width": 500.0,
+      "decoration": {
+        "color": "#000000"
+      },
+      "child": {
+
+        "type": "imageAsset",
+        "imageUrl": "assets/splash.png",
+        "width": 500.0,
+        "height": 800.0,
+        "fit": "cover"
+
+
+
+      }
+    }
+  }
+}
